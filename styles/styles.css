@@ -105,6 +105,12 @@ body {
   color: var(--secondary-dark);
 }
 
+/* Вот тут костыль перезаписывает ".list .link:hover" */
+.project .link:hover,
+.project .link:focus { 
+  color: var(--primary-dark);
+}
+
 /* Footer */
 
 .footer {
