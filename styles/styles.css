@@ -53,6 +53,12 @@ body {
   color: var(--primary-dark);
 }
 
+.button.secondary:hover,
+.button.secondary:focus {
+  background-color: var(--focus);
+  color: var(--primary-light);
+}
+
 /* Header */
 .header .logo {
   font-family: "Raleway";
@@ -69,14 +75,33 @@ body {
   color: var(--focus);
 }
 
-/* Main */
+/* Main Studio */
 
+/* Hero */
 .hero {
   background-color: var(--hero-footer-background);
 }
 
 .hero-title {
   color: var(--primary-light);
+}
+
+/* Sections */
+
+.benefits .description {
+  color: var(--secondary-dark);
+}
+
+.section.team {
+  background-color: var(--secondary-light);
+}
+
+.team-role {
+  color: var(--secondary-dark);
+}
+
+.example-description {
+  color: var(--secondary-dark);
 }
 
 /* Footer */
