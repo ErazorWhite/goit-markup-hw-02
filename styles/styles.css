@@ -1,4 +1,4 @@
-/* Main background color: #FFFFFF */
+/* Primary white color: #FFFFFF */
 /* Secondary background color: #F5F4FA */
 /* Hero&Footer background color: #2F303A */
 /* Focus color: #2196F3; */
@@ -8,7 +8,7 @@
 
 /* Colors variables */
 :root {
-  --primary-background: #ffffff;
+  --primary-white: #ffffff;
   --secondary-background: #f5f4fa;
   --hero-footer-background: #2f303a;
   --focus: #2196f3;
@@ -19,7 +19,7 @@
 
 /* Basic */
 body {
-  background-color: var(--primary-background);
+  background-color: var(--primary-white);
   color: var(--primary);
   font-family: "Roboto";
 }
@@ -46,11 +46,27 @@ body {
   color: var(--focus);
 }
 
-.nav-contact {
+.nav-contacts {
     color: var(--secondary)
 }
 
 /* Main */
+
+.hero {
+    background-color: var(--hero-footer-background);
+}
+
+.hero-title {
+    color: var(--primary-white);
+}
+
+.section {
+
+}
+
+.section-title {
+
+}
 
 /* Footer */
 
@@ -60,7 +76,7 @@ body {
 
 .footer .logo,
 .footer .address {
-    color: var(--primary-background);
+    color: var(--primary-white);
 }
 
 .footer .mail,
