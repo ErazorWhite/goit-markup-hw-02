@@ -66,7 +66,17 @@ body {
 }
 
 .list .link.current {
-    color: var(--focus);
+  color: var(--focus);
+}
+
+/* Main */
+
+.hero {
+  background-color: var(--hero-footer-background);
+}
+
+.hero-title {
+  color: var(--primary-light);
 }
 
 /* Footer */
