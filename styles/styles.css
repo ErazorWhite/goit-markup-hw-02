@@ -21,7 +21,19 @@
 body {
   background-color: var(--primary-light);
   color: var(--primary-dark);
-  font-family: "Roboto";
+  
+  font-family: Roboto, sans-serif;
+}
+
+.logo.link {
+  font-family: Raleway, sans-serif;  
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo .particle {
+  color: var(--focus);
 }
 
 .link {
@@ -41,7 +53,9 @@ body {
 .button {
   background-color: var(--primary-light);
   color: var(--primary-dark);
+  
   cursor: pointer;
+  font-family: inherit;
 }
 
 .button.primary {
@@ -61,12 +75,6 @@ body {
 }
 
 /* Header */
-.header .logo {
-  font-family: "Raleway";
-}
-.logo .particle {
-  color: var(--focus);
-}
 
 .nav-contacts {
   color: var(--secondary-dark);
@@ -100,6 +108,8 @@ body {
 .team-role {
   color: var(--secondary-dark);
 }
+
+/* Main Portfolio */
 
 .project-description {
   color: var(--secondary-dark);
