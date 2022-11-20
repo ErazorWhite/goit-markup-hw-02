@@ -33,10 +33,37 @@ body {
   list-style-type: none;
 }
 
+.list .link:hover,
+.list .link:focus {
+    color: var(--focus);
+}
+
 /* Header */
-.logo {
+.header .logo {
   font-family: "Raleway";
 }
 .logo .particle {
   color: var(--focus);
+}
+
+.nav-contact {
+    color: var(--secondary)
+}
+
+/* Main */
+
+/* Footer */
+
+.footer {
+    background-color: var(--hero-footer-background);
+}
+
+.footer .logo,
+.footer .address {
+    color: var(--primary-background);
+}
+
+.footer .mail,
+.footer .phone {
+    color: var(--tretiary);
 }
