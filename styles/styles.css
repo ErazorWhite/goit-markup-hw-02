@@ -17,7 +17,7 @@
   --tretiary-dark: rgba(255, 255, 255, 0.6);
 }
 
-/* Basic */
+/* Common things */
 body {
   background-color: var(--primary-light);
   color: var(--primary-dark);
@@ -41,6 +41,7 @@ body {
 .button {
   background-color: var(--primary-light);
   color: var(--primary-dark);
+  cursor: pointer;
 }
 
 .button.primary {
@@ -115,7 +116,7 @@ body {
   color: var(--primary-light);
 }
 
-.footer .mail,
+.footer .email,
 .footer .phone {
   color: var(--tretiary-dark);
 }
