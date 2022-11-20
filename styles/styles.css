@@ -1,26 +1,26 @@
-/* Primary white color: #FFFFFF */
-/* Secondary background color: #F5F4FA */
+/* Primary light color: #FFFFFF */
+/* Secondary light color: #F5F4FA */
 /* Hero&Footer background color: #2F303A */
 /* Focus color: #2196F3; */
-/* Primary text color: #212121 */
-/* Secondary text color: #757575 */
-/* Tretiary text color: color: rgba(255, 255, 255, 0.6); */
+/* Primary dark color: #212121 */
+/* Secondary dark color: #757575 */
+/* Tretiary dark color: color: rgba(255, 255, 255, 0.6); */
 
 /* Colors variables */
 :root {
-  --primary-white: #ffffff;
-  --secondary-background: #f5f4fa;
+  --primary-light: #ffffff;
+  --secondary-light: #f5f4fa;
   --hero-footer-background: #2f303a;
   --focus: #2196f3;
-  --primary: #212121;
-  --secondary: #757575;
-  --tretiary: rgba(255, 255, 255, 0.6);
+  --primary-dark: #212121;
+  --secondary-dark: #757575;
+  --tretiary-dark: rgba(255, 255, 255, 0.6);
 }
 
 /* Basic */
 body {
-  background-color: var(--primary-white);
-  color: var(--primary);
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
   font-family: "Roboto";
 }
 
@@ -35,7 +35,22 @@ body {
 
 .list .link:hover,
 .list .link:focus {
-    color: var(--focus);
+  color: var(--focus);
+}
+
+.button {
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+}
+
+.button.primary {
+  background-color: var(--focus);
+  color: var(--primary-light);
+}
+
+.button.secondary {
+  background-color: var(--secondary-light);
+  color: var(--primary-dark);
 }
 
 /* Header */
@@ -47,39 +62,41 @@ body {
 }
 
 .nav-contacts {
-    color: var(--secondary)
+  color: var(--secondary-dark);
+}
+
+.list .link.current {
+    color: var(--focus);
 }
 
 /* Main */
 
 .hero {
-    background-color: var(--hero-footer-background);
+  background-color: var(--hero-footer-background);
 }
 
 .hero-title {
-    color: var(--primary-white);
+  color: var(--primary-light);
 }
 
 .section {
-
 }
 
 .section-title {
-
 }
 
 /* Footer */
 
 .footer {
-    background-color: var(--hero-footer-background);
+  background-color: var(--hero-footer-background);
 }
 
 .footer .logo,
 .footer .address {
-    color: var(--primary-white);
+  color: var(--primary-light);
 }
 
 .footer .mail,
 .footer .phone {
-    color: var(--tretiary);
+  color: var(--tretiary-dark);
 }
