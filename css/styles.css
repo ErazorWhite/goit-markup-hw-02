@@ -179,6 +179,10 @@ body {
   background-color: var(--secondary-light);
 }
 
+/* .team-member.card {
+  color: var(--primary-light)
+} */
+
 .team-member.title {
   font-weight: 500;
   font-size: 16px;
