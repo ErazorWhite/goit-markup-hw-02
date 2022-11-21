@@ -12,6 +12,7 @@
   --secondary-light: #f5f4fa;
   --hero-footer-background: #2f303a;
   --focus: #2196f3;
+  --hero-focus: #188CE8;
   --primary-dark: #212121;
   --secondary-dark: #757575;
   --tretiary-dark: rgba(255, 255, 255, 0.6);
@@ -87,6 +88,12 @@ body {
   color: var(--primary-light);
 }
 
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--hero-focus);
+  color: var(--primary-light);
+}
+
 .button.secondary {
   background-color: var(--secondary-light);
   color: var(--primary-dark);
@@ -104,11 +111,12 @@ body {
   color: var(--secondary-dark);
 }
 
-.list .link.current {
+.nav-pages .current {
   color: var(--focus);
 }
 
-.header .list .link {
+.nav-pages .link,
+.nav-contacts .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -242,7 +250,7 @@ body {
   color: var(--tretiary-dark);
 }
 
-.footer .list .link {
+.footer-address .link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
